@@ -1,27 +1,44 @@
 ## 项目结构
 
-project/
-├── 01_NGram_BoW/
-
-│ └── BoW.ipynb # 词袋模型实现
-
-├── 02_Word2Vec/
-
-│ ├── CBOW.ipynb # CBOW 模型实现
-
-│ ├── SkipGram.ipynb # Skip-Gram 使用 Linear 层实现
-
-│ └── SkipGram-Embedding.ipynb # Skip-Gram 使用 Embedding 层实现
-
-├── 04_Seq2Seq/
-
-│ └── Seq2Seq.ipynb # 序列到序列模型实现
-
-├── 05_Attention/
-
-│ └── Seq2Seq_with_Attention.ipynb # 带注意力机制的序列到序列模型
-
-└── .gitignore # Git 忽略文件配置
+```
+.
+├── 01_NGram_BoW
+│   ├── BiGram.ipynb
+│   └── BoW.ipynb
+├── 02_Word2Vec
+│   ├── CBOW.ipynb
+│   ├── SkipGram-Enbedding.ipynb
+│   └── SkipGram.ipynb
+├── 03_NPLM
+│   ├── NPLM.ipynb
+│   └── RNN.ipynb
+├── 04_Seq2Seq
+│   └── Seq2Seq.ipynb
+├── 05_Attention
+│   ├── Dot-Product_Attention.ipynb
+│   ├── Multiheads-Self-Attention.ipynb
+│   ├── QKV.ipynb
+│   ├── Scaled_Dot-Product_Attention.ipynb
+│   ├── Self-Attention.ipynb
+│   └── Seq2Seq_with_Attention.ipynb
+├── 06_Transformer
+│   └── Transformer.ipynb
+├── 07_GPT
+│   ├── GPT.ipynb
+│   ├── Transformer_with_GreedyDecoder.ipynb
+│   ├── WikiGPT.ipynb
+│   └── lang.txt
+├── 08_ChatGPT
+│   ├── GPT_Model.py
+│   ├── Pretrain_ChatGPT.ipynb
+│   ├── RLHF_Reward_ChatGPT.py
+│   ├── SelfTrain_ChatGPT.ipynb
+│   └── chat.txt
+├── 09_OpenAI_API
+│   ├── ChatBot.ipynb
+│   └── ChatBot.py
+└── README.md
+```
 
 ## 采用 conda 初始化环境
 
