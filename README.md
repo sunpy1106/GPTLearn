@@ -2,15 +2,25 @@
 
 project/
 ├── 01_NGram_BoW/
+
 │ └── BoW.ipynb # 词袋模型实现
+
 ├── 02_Word2Vec/
+
 │ ├── CBOW.ipynb # CBOW 模型实现
+
 │ ├── SkipGram.ipynb # Skip-Gram 使用 Linear 层实现
+
 │ └── SkipGram-Embedding.ipynb # Skip-Gram 使用 Embedding 层实现
+
 ├── 04_Seq2Seq/
+
 │ └── Seq2Seq.ipynb # 序列到序列模型实现
+
 ├── 05_Attention/
+
 │ └── Seq2Seq_with_Attention.ipynb # 带注意力机制的序列到序列模型
+
 └── .gitignore # Git 忽略文件配置
 
 ## 采用 conda 初始化环境
